@@ -1,0 +1,42 @@
+Que. 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+Sol. 
+So basically we need to find lowest common multiple of numbers from 1 to 20. For that we need to factorize all the numbers 
+and take highest power of each prime number and multiply all of them.
+Let's start from 20 and go down one by one.
+20 = (2^2)*5
+19 = 19
+18 = 2*(3^2)
+17 = 17
+16 = 2^4
+15 = 3*5
+14 = 2*7
+13 = 13
+12 = (2^2)*3
+11 = 11
+10 = 2*5
+9 = 3^2
+8 = 2^4
+7 = 7
+6 = 2*3
+5 = 5
+4 = 2^2
+3 = 3
+2 = 2
+
+So prime numbers and their highest powers from 1 to 20 are:
+N    Power  N^power
+2     4      16
+3     2      9
+5     1      5
+7     1      7
+11    11     11
+13    1      13
+17    1      17
+19    1      19
+
+Now mutiply all the N^power to get the answer.
+So final ans = 16*9*5*7*11*13*17*19 = 232792560.
+Notice, N^power covers all the numbers from 1 to 20.
