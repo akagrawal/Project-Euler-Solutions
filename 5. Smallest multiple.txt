@@ -39,4 +39,4 @@ N    Power  N^power
 
 Now mutiply all the N^power to get the answer.
 So final ans = 16*9*5*7*11*13*17*19 = 232792560.
-Notice, N^power covers all the numbers from 1 to 20.
+Notice, ans covers all the numbers from 1 to 20.
